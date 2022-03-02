@@ -34,15 +34,36 @@ hr {
 }
 .large {
     width: 1080px;
-    color:rgb(177, 190, 117);
 }
 .small {
     width: 600px;
-    color:rgb(177, 190, 117);
 }
 .equations{
     text-align: center;
     display: inline-block;
     font-family:sans-serif;
     color: rgb(158, 158, 158);
+}
+a {
+    color: magenta;
+}
+#Forwards {
+    width: 100%;
+    height: 2000px;
+    border: 4mm ridge rgba(170, 50, 220);
+}
+#Midfielders {
+    width: 100%;
+    height: 2000px;
+    border: 4mm ridge rgba(170, 50, 220);
+}
+#Defenders {
+    width: 100%;
+    height: 3000px;
+    border: 4mm ridge rgba(170, 50, 220);
+}
+#Goalie {
+    width: 100%;
+    height: 1000px;
+    border: 4mm ridge rgba(170, 50, 220);
 }
